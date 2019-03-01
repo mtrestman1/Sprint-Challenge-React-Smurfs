@@ -28,7 +28,7 @@ componentDidMount() {
     return (
       <div className="App">
        <div>
-          <NavLink to="/">Smurfs List</NavLink>
+          <NavLink to="/">Smurfs List</NavLink> 
         </div>
         <div>
           <NavLink to="/smurf-form">Smurf Form</NavLink>
