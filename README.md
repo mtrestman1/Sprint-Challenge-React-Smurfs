@@ -58,6 +58,7 @@ Follow these steps for completing your project:
 - [ ] PM then will count the HW as done by  merging the branch back into master.
 ## Minimum Viable Product
 
+
 The MVP of this project will be broken up between 2 stages. Follow each step and be sure to use your design/style skills to make this application look professional.
 
 ### Stage 1
