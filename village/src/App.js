@@ -27,12 +27,11 @@ componentDidMount() {
   render() {
     return (
       <div className="App">
-       <div>
+       <nav>
           <NavLink to="/">Smurfs List</NavLink> 
-        </div>
-        <div>
+        
           <NavLink to="/smurf-form">Smurf Form</NavLink>
-        </div>
+        </nav>
        <Route exact path='/' render={props => <Smurfs {...props} smurfs={this.state.smurfs} />} />
        <Route path='/smurf-form' component={SmurfForm} />
       </div>
