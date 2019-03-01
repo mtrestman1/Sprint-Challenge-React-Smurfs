@@ -40,7 +40,7 @@ GET, POST, PUT, DELETE.
 
 - [ ] Mention three tools we can use to make AJAX requests.
 
- Fetch, Axios, ?
+ Fetch, Axios, ? 
 
 
 ## Project Set Up
