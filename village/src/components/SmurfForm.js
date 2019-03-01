@@ -32,7 +32,11 @@ class SmurfForm extends Component {
   }
 
   handleInputChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
+    let value = e.target.value;
+    if (e.target.name === 'age') {
+      value = parseInt(value, 10)
+    }
+    this.setState({ [e.target.name]: value });
   };
 
   render() {
