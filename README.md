@@ -29,8 +29,18 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the differences between `client-side routing` and `server-side routing`.
+
+Client- Route is handled internally by the JS loaded on page. Less time between pages and not refreshed everytime (unless you're me and the data only loads when you refresh the page). But, the entire website needs to be loaded initially as opposed to server that only loads the relevant info we need.
+Server- Refreshes the page every time click new link. Only requests data we need from server. Good for SEO.
+
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+GET, POST, PUT, DELETE.
+
 - [ ] Mention three tools we can use to make AJAX requests.
+
+ Fetch, Axios, ? 
 
 
 ## Project Set Up
@@ -57,6 +67,7 @@ Follow these steps for completing your project:
 - [ ] Add your Project Manager as a Reviewer on the Pull-request
 - [ ] PM then will count the HW as done by  merging the branch back into master.
 ## Minimum Viable Product
+
 
 The MVP of this project will be broken up between 2 stages. Follow each step and be sure to use your design/style skills to make this application look professional.
 
